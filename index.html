@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="./images/robo.png" type="icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Revoadinha</title>
+
+    <!-- Icons BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+    <!--   header   -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow">
+        <div class="container">
+            <img src="./images/logo.png" class="img-fluid" alt="logo robo">
+            <a class="navbar-brand" href="#">Revoadinha</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-filter-right"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robo">O Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robocup">RoboCup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arma">Arma</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mídias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#video1">Vídeo 01</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#video2">Vídeo 02</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#imagens">Imagens</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faleConosco">Fale Conosco</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- fim header -->
+
+    <!-- apresentação do robo -->
+    <section class="presentation">
+        <div class="container-presentation textopreto">
+            <div class="text-presentation fw-semibold fs-5">
+                <p class="fs-2" id="robo">Revoadinha: o guerreiro imbatível da RoboCup</p>
+                <p> Com uma estrutura ágil e precisa, ele é a verdadeira personificação da inteligência robótica em
+                    ação. Equipado com duas armas afiadas como agulhas, o Revoadinha não apenas defende seu balão, ele
+                    ataca com precisão cirúrgica, estourando o balão de qualquer adversário que ousar cruzar seu
+                    caminho.</p>
+            </div>
+            <figure><img src="./images/robo.png" alt="robo sorrindo"><i class="shadow"></i></figure>
+        </div>
+    </section>
+    <!-- fim apresentação do robo -->
+
+    <!-- apresentação do robocup -->
+    <section class="presentation bg-color-cyan shadow mb-3 m-2 rounded">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center ">
+                    <figure>
+                        <img class="imagem img-fluid rounded" src="./images/robocup.png"
+                            alt="desenho representando robo em luta">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-presentation fw-semibold fs-5">
+                        <p class="fs-2" id="robocup">O que é a RoboCup?</p>
+                        <p>Com uma estrutura ágil e precisa, ele é a verdadeira personificação da inteligência robótica
+                            em ação. Equipado com duas armas afiadas como agulhas, o Revoadinha não apenas defende seu
+                            balão, ele ataca com precisão cirúrgica, estourando o balão de qualquer adversário que ousar
+                            cruzar seu caminho.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fim apresentação do robocup -->
+
+    <!-- embarque nesse carrosel -->
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner" id="imagens">
+            <div class="carousel-item active">
+                <img src="./images/imagem1.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    alt="Montagem dos sensores" style="max-width: 450px;">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/imagem2.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    alt="colando os sensores" style="max-width: 450px;">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/imagem3.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    alt="colando os motores da arma" style="max-width: 450px;">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/imagem4.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    alt="fase inicial do robo" style="max-width: 350px;">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/imagem5.jpg" class="img-fluid img-thumbnail mx-auto d-block"
+                    alt="frase pré final do robo" style="max-width: 350px;">
+            </div>
+        </div>
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    <!-- fim carrosel -->
+
+    <!-- aqui fica a parte da arma -->
+    <section class="presentation bg-color-cyan shadow mt-3 m-2">
+        <div class="container-presentation" id="arma">
+            <div class="text-presentation fw-semibold fs-5">
+                <p class="fs-2 fw-bold">Como funciona a arma?</p>
+                <p>A arma ira se retrair e se ativar pelas laterais e ficará inativa ao lado interior do robô, ela
+                    inativa ira ter 20 cm para
+                    dentro do robô, e quando ativada 20 cm para fora do robô, a arma sera duas hastes com uma bola na
+                    ponta com agulhas
+                </p>
+            </div>
+            <img src="./images/imagem69.png" class=" imagem img-fluid rounded" alt="armas do robo">
+        </div>
+    </section>
+    <!-- fim arma -->
+
+    <!-- grid -->
+    <div class="container my-5">
+
+        <div class="row">
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card" id="hardware">
+                    <img src="./images/hardware1.png" class="card-img-top" alt="arduino">
+                    <div class="card-body">
+                        <h5 class="card-title">Arduino</h5>
+                        <p class="card-text">O Arduino é composto por hardware e software, e tem como objetivo tornar a
+                            prototipagem eletrônica mais acessível,
+                            barata e flexível.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3 ">
+                <div class="card">
+                    <img src="./images/hardware2.png" class="card-img-top" alt="jumper mf">
+                    <div class="card-body">
+                        <h5 class="card-title">Jumper MF</h5>
+                        <p class="card-text">São úteis, por exemplo, para interligar 2 canais bipolares em sistemas de
+                            Eletromiografia diagnóstica, como necessário em Macro EMG </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware3.png" class="card-img-top" alt="soquete de pilhas">
+                    <div class="card-body">
+                        <h5 class="card-title">Soquete de pilhas</h5>
+                        <p class="card-text">O soquete de pilhas, também conhecido como suporte de pilhas, é um
+                            componente eletrônico que serve para ligar e
+                            sustentar pilhas </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware4.png" class="card-img-top" alt="jumper mm">
+                    <div class="card-body">
+                        <h5 class="card-title">Jumper MM</h5>
+                        <p class="card-text">Eles são utilizados para conectar componentes eletrônicos que possuem pinos
+                            macho em uma placa de circuito ou
+                            protoboard. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware5.png" class="card-img-top" alt="led 3mm">
+                    <div class="card-body">
+                        <h5 class="card-title">LED 3MM</h5>
+                        <p class="card-text">O LED Difuso 3mm é um diodo emissor de luz comumente utilizado como fonte
+                            luminosa ou sinalizadora em projetos
+                            eletrônicos.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware6.png" class="card-img-top" alt="Resistor de filme">
+                    <div class="card-body">
+                        <h5 class="card-title">Resistor de Filme</h5>
+                        <p class="card-text">Um resistor de filme metálico de zero ohm é frequentemente chamado de
+                            resistor de jumper, esses resistores são
+                            projetados para conectar circuitos juntos</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware7.png" class="card-img-top" alt="Barra de pinos">
+                    <div class="card-body">
+                        <h5 class="card-title">Barra de Pinos</h5>
+                        <p class="card-text">Pode ser utilizado para conexão com display, sensores e componentes
+                            eletrônicos em geral. São conectores que efetuam a
+                            ligação</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware8.png" class="card-img-top" alt="motor de 5v">
+                    <div class="card-body">
+                        <h5 class="card-title">Motor de 5V</h5>
+                        <p class="card-text">O Micro Motor de passo 5V é um excelente componente elétrico utilizado em
+                            projetos robóticos, onde é necessário o ajuste</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware9.png" class="card-img-top" alt="Roda de espumas">
+                    <div class="card-body">
+                        <h5 class="card-title">Roda de Espumas</h5>
+                        <p class="card-text">Essa tecnologia consiste em uma tira de espuma especial no lado de dentro
+                            do pneu. Ela absorve o que, segundo a marca, absorve o ruido </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware10.png" class="card-img-top" alt="chave ">
+                    <div class="card-body">
+                        <h5 class="card-title">Chave de fim de curso</h5>
+                        <p class="card-text">Também conhecida como sensor fim de curso, interruptor fim de curso ou
+                            microswitch, a chave fim de curso é um
+                            dispositivo eletromecânico </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware11.png" class="card-img-top" alt="Bluetooth">
+                    <div class="card-body">
+                        <h5 class="card-title">Shield de Bluetooth</h5>
+                        <p class="card-text">O Shield de Bluetooth é uma placa que se encaixa na placa Arduino para
+                            adicionar funcionalidades e ampliar suas
+                            capacidades</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware12.png" class="card-img-top" alt="Driver">
+                    <div class="card-body">
+                        <h5 class="card-title">Driver do motor</h5>
+                        <p class="card-text">O driver motor é um controlador para motores, sendo amplamente conhecido
+                            por ser um dispositivo que pode trabalhar com o controlador</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware13.png" class="card-img-top" alt="ProtoBoard">
+                    <div class="card-body">
+                        <h5 class="card-title">ProtoBoard</h5>
+                        <p class="card-text">A protoboard, também conhecida como placa de ensaio ou breadboard, é uma
+                            ferramenta utilizada para criar e testar
+                            circuitos eletrônicos</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+            <!--   card   -->
+            <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                <div class="card">
+                    <img src="./images/hardware14.png" class="card-img-top" alt="Transistor">
+                    <div class="card-body">
+                        <h5 class="card-title">Transistor</h5>
+                        <p class="card-text">O transistor é um dispositivo semicondutor que serve para amplificar ou
+                            bloquear a passagem de corrente elétrica enviando sinais</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim card -->
+        </div>
+    </div>
+    </div>
+    <!-- fim grid -->
+
+    <!-- Seção de Vídeos -->
+    <section id="videos" class="my-5">
+        <div class="container ">
+            <h2 class="text-center ">Vídeos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 bs-body-bg rounded-3 shadow-lg" id="video1">
+                    <div class="ratio ratio-16x9 rouded">
+                        <iframe src="https://www.youtube.com/embed/JrfHBLm-lVE?si=YvmG5VNuMJClRVcs" title="Vídeo 1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p class="text-center mt-2 textopreto">Vídeo 01 - primeiros passos do Revoadinha</p>
+                </div>
+                <div class="col-md-6 mb-4 bs-body-bg rounded-3 shadow-lg " id="video2">
+                    <div class="ratio ratio-16x9 ">
+                        <iframe src="https://www.youtube.com/embed/1bRZBhy8uRU?si=sFMeDfSMJzigdZ4x" title="Vídeo 2"
+                            allowfullscreen></iframe>
+                    </div>
+                    <p class="text-center mt-2 textopreto">Vídeo 02 - construção do Revoadinha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- fala comigo -->
+    <div class="container">
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="form" id="faleConosco">
+                    <h3>Fale conosco</h3>
+                    <form id="contact-us">
+                        <input type="text" name="name" placeholder="Nome Completo">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <textarea name="message" placeholder="Mensagem"></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="information">
+                    <p>Duvidas, perguntas e sugestões são muito bem vindas! Caso tenha gostado, conte pra gente!</p>
+                    <figure><img src="./images/logo.png" alt="logo do Robô"></figure>
+                </div>
+            </div>
+        </section>
+    </div>
+<!-- fim do fala comigo -->
+    <footer>
+        <div class="informations">
+            <div class="social-networks">
+                <span class="title">Redes Sociais</span>
+                <div class="links">
+                    <a href="https://facebook.com/" target="_blank" title="Curta-nos no Facebook">
+                        <figure><img src="./images/icon-facebook (1).svg" alt="Facebook"></figure>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" title="Siga-nos no Instagram">
+                        <figure>
+                            <img src="./images/icon-instagram.svg" alt="Instagram">
+                        </figure>
+                    </a>
+                    <a href="https://youtube.com/" target="_blank" title="Assista-nos no YouTube">
+                        <figure>
+                            <img src="./images/icon-youtube.svg" alt="Youtube">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="organization">
+                <span class="title">Organização</span>
+                <a href="https://www.fiap.com.br/" title="FIAP">
+                    <figure><img src="./images/logo-fiap.png" alt="FIAP"></figure>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>&copy; Revoadinha 2024</span>
+            <span class="credits">Desenvolvimento <span class="company">mechaDevs</span></span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
